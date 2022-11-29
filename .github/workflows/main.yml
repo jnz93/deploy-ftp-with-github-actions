@@ -17,4 +17,4 @@ jobs:
         server: ${{ secrets.ftp_host }}
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_pass }}
-        server-dir: deploy/example1/
+        server-dir: domains/unitycode.tech/public_html/deploy/example1/
