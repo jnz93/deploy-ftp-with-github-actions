@@ -24,7 +24,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: ${{ secrets.UNITY_HOST }}
-        username: ${{ secrets.UNITY_FTP_DEPLOY_USER }}
-        password: ${{ secrets.UNITY_FTP_DEPLOY_PASS }}
+        server: ${{ secrets.ftp_host }}
+        username: ${{ secrets.ftp_user }}
+        password: ${{ secrets.ftp_pass }}
         server-dir: deploy/example1/
